@@ -13,23 +13,23 @@
   <extension point="xbmc.addon.repository" name="KodiloucosBR Repositório">
     
       <dir>
-			<info compressed="false">https://raw.github.com/Kodiloucosbr/kodiloucosbr/master/addons.xml</info>
-			<checksum>https://raw.github.com/Kodiloucosbr/kodiloucosbr/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/magusplay/kodiloucosbr/master</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/Kodiloucosbr/kodiloucosbr.github.io</datadir>
 			<hashes>false</hashes>
     </dir>
 	
 	<dir minversion="16.0.0" maxversion="18.9.0">
-			<info compressed="false">https://raw.github.com/Kodiloucosbr/kodiloucosbr/master/leia/addons.xml</info>
-			<checksum>https://raw.github.com/magusplay/kodiloucosbr/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr/master/leia</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/Kodiloucosbr/kodiloucosbr.github.io/tree/master/leia</datadir>
 			<hashes>false</hashes>
     </dir>
    
    <dir minversion="18.9.1">
-			<info compressed="false">https://raw.github.com/magusplay/kodiloucosbr/master/matrix/addons.xml</info>
-			<checksum>https://raw.github.com/magusplay/Kodiloucosbr/kodiloucosbr/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/Kodiloucosbr/kodiloucosbr/master/matrix</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/Kodiloucosbr/kodiloucosbr.github.io/tree/master/matrix</datadir>
 			<hashes>false</hashes>
     </dir>
 	  
