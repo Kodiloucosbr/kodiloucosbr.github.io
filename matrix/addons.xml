@@ -51,5 +51,45 @@
         <website>https://www.tvaddons.co</website>
     </extension>
 </addon>
-
+<addon id="script.module.slproxy" name="SLProxy" version="0.0.7" provider-name="devilsport">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests"/>
+	  <import addon="script.module.streamlink.base" />  
+  </requires>
+  <extension point="xbmc.python.module" library="lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>StreamLink Proxy DS</summary>
+    <description>Streamlink proxy for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source></source>
+    <language>en</language>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>
+    </news>
+  </extension>
+</addon>
+<addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.44" provider-name="venomous">
+  <requires>
+    <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.python.pluginsource" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">cloudscraper</summary>
+    <description lang="en_gb">cloudscraper</description>
+    <disclaimer lang="en_gb"/>
+    <language/>
+    <platform>all</platform>
+    <license/>
+    <forum/>
+    <website/>
+    <email/>
+    <source/>
+  </extension>
+</addon>
 </addons>
