@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
   <addon 
   id="repository.kodiloucosbr" 
-  name="[COLOR gold]Repositório KodiloucosBR OFICIAL[/COLOR]" 
+  name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]" 
   version="1.0.1" 
   provider-name="Marcão">
   <requires>
@@ -28,7 +28,7 @@
   </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>repositorio KodiloucosBR</summary>
+    <summary>Repositorio KodiloucosBR Oficial</summary>
     <description>Repositorio oficial Addon KodiloucosBR - Proibido reprodução sem previa autorizacao</description>
     <disclaimer></disclaimer>
     <platform>all</platform>
