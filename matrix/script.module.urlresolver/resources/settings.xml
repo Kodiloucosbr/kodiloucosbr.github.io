@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="URLResolver">
+		<setting default="true" id="allow_universal" label="Universal-Resolver aktivieren" type="bool"/>
+		<setting default="true" id="allow_popups" label="Enable PopUps" type="bool"/>
+		<setting default="true" id="auto_pick" label="Automatisch beste Qualität auswählen" type="bool"/>
+		<setting default="true" id="use_cache" label="Cache-Funktion benutzen" type="bool"/>
+		<setting id="reset_cache" type="action" label="Cache-Funktion zurücksetzen" action="RunPlugin(plugin://script.module.urlresolver/?mode=reset_cache)"/>
+		<setting id="personal_nid" label="Your NID" type="text" visible="false" default=""/>
+		<setting id="last_ua_create" label="last_ua_create" type="number" visible="false" default="0"/>
+		<setting id="current_ua" label="current_ua" type="text" visible="false" default=""/>
+		<setting id="addon_debug" label="addon_debug" type="bool" visible="false" default="false"/>
+	</category>
+	<category label="Universelle Resolver">
+	</category>
+	<category label="Resolver 1">
+	</category>
+</settings>
