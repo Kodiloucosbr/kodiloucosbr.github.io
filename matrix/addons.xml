@@ -1,14 +1,14 @@
 <addons>
-<addon id="plugin.video.kodiloucos_brasil" version="1.2.6+matrix" name="[COLOR green]KodiLoucos [COLORgold] Brasil[/COLOR]" provider-name="Marcão">
+<addon id="plugin.video.kodiloucos_brasil" version="1.2.7" name="[COLOR green]KodiLoucos [COLORgold] Brasil[/COLOR]" provider-name="Marcão">
 <requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
+		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" optional="true"/>
 		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
 		<import addon="script.module.youtube.dl" optional="true"/>
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="script.module.dateutil" optional="true" />
-		<import addon="script.module.resolveurl" optional="true"/>
 		<import addon="script.module.urlresolver" optional="true"/>
 		<import addon="script.module.cloudscraper" optional="true"/>
 		<import addon="script.module.inputstreamhelper" optional="true"/>
