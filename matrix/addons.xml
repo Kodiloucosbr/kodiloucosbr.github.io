@@ -66,6 +66,33 @@ v1.0.2
 	</news>
 </extension>
 </addon>
+<addon
+	id="plugin.video.tvloucosbr" version="0.1.7" name="[COLOR lime]TV Loucos[COLOR yellow] Brasil[/COLOR]" provider-name="Team Magusplay, KodiloucosBR">
+<requires>    		
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>	
+		<import addon="script.module.six"/>	
+		
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="pt">Complemento pessoal para IPTV</summary>
+		<description lang="pt">Este complemento fornece IPTV apenas para uso pessoal e privado</description>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="pt">O autor deste addon não se responsabiliza pelo uso dele</disclaimer>
+	<assets>
+        <icon>icon.png</icon>  
+        <fanart>fanart.jpg</fanart>
+    </assets>        
+		<language>pt</language>
+	</extension>	
+	
+</addon>
  <addon 
   id="repository.kodiloucosbr" 
   name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]" 
