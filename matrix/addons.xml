@@ -82,6 +82,22 @@ v1.0.2
 	</assets>
   </extension>
 </addon>
+<addon id="plugin.video.TvLoucos-Mundi" name="[COLOR blue]TV[COLOR white]Loucos[COLOR red] Mundi[/COLOR]" version="0.1.1" provider-name="Team Magusplay, KodiloucosBR, By Flecha Negra">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR lime]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR] </summary>
+	<language>en</language>
+	<description lang="pt">[COLOR blue]Addon compátivel com o  kodi 19+[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
  <addon 
   id="repository.kodiloucosbr" 
   name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]" 
