@@ -66,21 +66,29 @@ v1.0.2
 	</news>
 </extension>
 </addon>
-<addon id="plugin.video.tvloucosbr" name="[COLOR lime]TV Loucos[COLOR yellow] Brasil[/COLOR]" version="0.1.9" provider-name="Team Magusplay, KodiloucosBR, By Flecha Negra">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
+<addon
+	id="plugin.video.tvloucosbr" version="0.1.10" name="[COLOR lime]TV Loucos[COLOR yellow] Brasil[/COLOR]" provider-name="Team Magusplay">
+<requires>    		
+    	<import addon="script.module.resolveurl"/>
+	    <import addon="script.module.requests"/>	
+		<import addon="script.module.six"/>			
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR lime]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR] </summary>
-	<language>en</language>
-	<description lang="pt">[COLOR blue]Addon compátivel com o  kodi 19+[/COLOR]</description>
-	<platform>all</platform>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="pt">Complemento pessoal para IPTV</summary>
+		<description lang="pt">Este complemento fornece IPTV apenas para uso pessoal e privado</description>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="pt">O autor deste addon não se responsabiliza pelo uso dele</disclaimer>
 	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
+        <icon>icon.png</icon>  
+        <fanart>fanart.jpg</fanart>
+    </assets>        
+		<language>pt</language>
+	</extension>	
 </addon>
 <addon id="plugin.video.TvLoucos-Mundi" name="[COLOR blue]TV[COLOR white]Loucos[COLOR red] Mundi[/COLOR]" version="0.1.1" provider-name="Team Magusplay, KodiloucosBR, By Flecha Negra">
   <extension point="xbmc.python.pluginsource"
