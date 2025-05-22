@@ -58,6 +58,30 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.playloucosclub" version="0.1.1" name="PlayLoucos Club" provider-name="Team KodiloucosBR">
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+		<import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.inputstreamhelper"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<description lang="pt">Addon exclusivo para colaboradores do projeto KodiloucosBR</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer>O autor deste complemento não hospeda nenhum conteúdo encontrado e não tem afiliação com nenhum dos provedores de conteúdo. Este complemento simplesmente pesquisa conteúdo em sites. Use por sua conta e risco!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.sexyloucosbrasil" name="[COLOR pink]SexyLoucos[/COLOR] [COLOR yellow]Brasil[/COLOR]" version="1.0.2" provider-name="Marcao">
 	<requires>
 		<import addon="script.module.six" />
