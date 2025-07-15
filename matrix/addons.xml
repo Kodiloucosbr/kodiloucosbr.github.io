@@ -82,6 +82,23 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.flixloucosclub" name="[COLOR yellow]Flix [COLOR lime]Loucos[COLOR yellow] Club[/COLOR]" version="0.1.0" provider-name="KodiloucosBR e Team Magusplay">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="pt">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal, projeto da familia KodiloucosBR</summary>
+	<language>pt</language>
+	<description lang="pt">Addon compátivel com o  kodi 19+</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.sexyloucosbrasil" name="[COLOR pink]SexyLoucos[/COLOR] [COLOR yellow]Brasil[/COLOR]" version="1.0.2" provider-name="Marcao">
 	<requires>
 		<import addon="script.module.six" />
