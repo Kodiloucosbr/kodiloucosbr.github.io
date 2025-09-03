@@ -178,6 +178,25 @@ v1.0.2
   </extension>
 </addon>
 
+<addon id="plugin.audio.kodiloucosFM" version="0.1.2" name="Kodiloucos WebRadio" provider-name="Team KodiloucosBR By MAGUSPLAY">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="pt">Web Radios online</summary>
+  <description lang="en_GB">Team KodiloucosBR</description>
+  <disclaimer lang="en_GB">Todos os direitos reservados</disclaimer>
+  <assets>
+    <icon>resources/images/icon.png</icon>
+    <fanart>resources/images/fanart.jpg</fanart>
+  </assets>
+  <news>0.1.2 Web Radios Online Grátis</news>
+</extension>
+</addon>
+
  <addon 
   id="repository.kodiloucosbr" 
   name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]" 
