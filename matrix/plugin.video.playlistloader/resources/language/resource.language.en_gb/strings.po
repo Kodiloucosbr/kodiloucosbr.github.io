@@ -1,0 +1,201 @@
+# Kodi Media Center language file
+# Addon Name: Playlist Loader
+# Addon id: plugin.video.playlistloader
+
+msgid ""
+msgstr ""
+
+"Last-Translator: Publish3r\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Configurações"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Adicione uma Nova Lista"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Selecione a Lista de Reprodução"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Favoritos"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Nome da Lista"
+msgstr ""
+
+msgctxt "#30005"
+msgid "URL da Lista"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Escolha a Lista"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Tem o Mesmo Endereço"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Remover a Lista de Reprodução"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Adicionar aos Favoritos do VikingsPro"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Remover dos Favoritos do VikingsPro"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Já Esta Nos Favoritos"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Adicionado aos Favoritos"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Adicionar um Novo Canal"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Nome do Canal"
+msgstr ""
+
+msgctxt "#30015"
+msgid "URL do Canal"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Lista Remota (URL)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Lista Local (File)"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Selecione a Fontes de Logotipos dos Canais"
+msgstr ""
+
+msgctxt "#30019"
+msgid "URL Base dos Logotipos de Canais"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Pasta de Logo dos Canais"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Nenhum"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Escolha o Logotipo da Lista"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Escolha o Logotipo deo Canal"
+msgstr ""
+
+msgctxt "#30024"
+msgid "URL da Logo"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Arquivo do Logo"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Renomear"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Mudar a Fonte"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Mudar o Logo"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Alterar a Fonte de Logotipos de Canais"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Mover para Cima"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Mover para Baixo"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Mover para"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Selecione Um Novo Local"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Selecione os Minutos para Armazenar a Lista em Disco"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Alterar o Tempo de Cache da Lista"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Mostrar os Grupos da Lista de Canais"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Sim"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Não"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Clique para Mudar"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Adiciona Nova Pasta"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Adicionar ao Diretório Existente"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Selecione um Icone Para Este Diretório (Opcional)"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Excluir do Conteúdo do Diretório"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Excluir o Diretório e Mova o Conteúdo da Raiz"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Excluir Arquivos de Listas de Reprodução"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Excluir de Favoritos"
+msgstr ""
