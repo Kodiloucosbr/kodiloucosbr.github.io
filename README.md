@@ -1,5 +1,5 @@
 # KodiloucosBR REPOSITORY
-# Versão Actual: 1.0.3
+# Versão Actual: 1.0.4
 
 Instruções para a adição deste repo:
 
