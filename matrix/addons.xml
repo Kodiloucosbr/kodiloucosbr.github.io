@@ -183,7 +183,7 @@
     <addon 
   id="repository.kodiloucosbr" 
   name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]" 
-  version="1.0.3" 
+  version="1.0.4" 
   provider-name="Team KodiloucosBR">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>  
@@ -192,7 +192,7 @@
       <dir>
       <info compressed="true">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/zips/</datadir>
+      <datadir zip="true">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/</datadir>
       <hashes>false</hashes>
   </dir>  
   <dir minversion="19.0.0">
