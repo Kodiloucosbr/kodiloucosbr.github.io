@@ -58,7 +58,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.playloucosclub" version="0.1.1" name="PlayLoucos Club" provider-name="Team KodiloucosBR">
+<addon id="plugin.video.playloucosclub" version="0.1.2" name="PlayLoucos Club" provider-name="Team KodiloucosBR">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
@@ -82,9 +82,9 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.flixloucosclub" name="[COLOR yellow]Flix [COLOR lime]Loucos[COLOR yellow] Club[/COLOR]" version="0.1.1" provider-name="KodiloucosBR e Team Magusplay">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
+
+<addon id="plugin.video.flixloucosclub" name="[COLOR yellow]Flix [COLOR lime]Loucos[COLOR yellow] Club[/COLOR]" version="0.1.3" provider-name="KodiloucosBR e Team Magusplay">
+  <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -99,7 +99,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sexyloucosclub" name="[COLOR red]Sexy [COLOR whitte]Loucos [COLOR yellow]Club[/COLOR]" version="0.1.1" provider-name="Team Kodiloucos">
+<addon id="plugin.video.sexyloucosclub" name="[COLOR red]Sexy [COLOR whitte]Loucos [COLOR yellow]Club[/COLOR]" version="0.1.2" provider-name="Team Kodiloucos">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
@@ -119,12 +119,13 @@
   </extension>
 </addon>
 
+
 <addon
 	id="plugin.video.tvloucosbr" version="0.1.10" name="[COLOR lime]TV Loucos[COLOR yellow] Brasil[/COLOR]" provider-name="Team Magusplay">
-<requires>    		
+<requires>
     	<import addon="script.module.resolveurl"/>
-	    <import addon="script.module.requests"/>	
-		<import addon="script.module.six"/>			
+	    <import addon="script.module.requests"/>
+		<import addon="script.module.six"/>
   </requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -137,11 +138,11 @@
 		<platform>all</platform>
 		<disclaimer lang="pt">O autor deste addon não se responsabiliza pelo uso dele</disclaimer>
 	<assets>
-        <icon>icon.png</icon>  
+        <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
-    </assets>        
+    </assets>
 		<language>pt</language>
-	</extension>	
+	</extension>
 </addon>
 
 <addon id="plugin.video.TvLoucos-Mundi" name="[COLOR blue]TV[COLOR white]Loucos[COLOR red] Mundi[/COLOR]" version="0.1.1" provider-name="Team Magusplay, KodiloucosBR, By Flecha Negra">
@@ -180,13 +181,13 @@
 </extension>
 </addon>
 
-    <addon 
-  id="repository.kodiloucosbr" 
-  name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]" 
-  version="1.0.4" 
+    <addon
+  id="repository.kodiloucosbr"
+  name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]"
+  version="1.0.4"
   provider-name="Team KodiloucosBR">
   <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>  
+    <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
   <extension point="xbmc.addon.repository" name="[COLOR white]KodiloucosBR [COLOR gold]Repositorio[/COLOR]">
       <dir>
@@ -194,13 +195,13 @@
       <checksum>https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/</datadir>
       <hashes>false</hashes>
-  </dir>  
+  </dir>
   <dir minversion="19.0.0">
       <info compressed="true">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/matrix/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/matrix</datadir>
       <hashes>false</hashes>
-  </dir>    
+  </dir>
   <dir minversion="17.0.0" maxversion="18.9.0">
       <info compressed="true">https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/Kodiloucosbr/kodiloucosbr.github.io/master/leia/addons.xml.md5</checksum>
@@ -224,21 +225,21 @@
   <requires>
     <import addon="script.module.flask"/>
     <import addon="script.module.requests"/>
-    <import addon="script.module.netunblock"/>    
+    <import addon="script.module.netunblock"/>
     <import addon="xbmc.json" version="6.0.0"/>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="startup"/>
   <extension point="xbmc.python.pluginsource" library="default.py">
       <provides>video</provides>
-  </extension>  
+  </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">f4mTester</summary>
     <description lang="en"></description>
     <platform>all</platform>
     <assets>
 			<icon>icon.png</icon>
-		</assets>    
+		</assets>
   </extension>
 </addon>
 
@@ -253,7 +254,7 @@
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
-        </assets>        
+        </assets>
     </extension>
 </addon>
 
@@ -266,7 +267,7 @@
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="app.py">
         <provides>executable</provides>
-    </extension>    
+    </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en_GB">DNS OVER HTTPS (DoH) resolver for Kodi.</summary>
@@ -284,12 +285,12 @@
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
 		<import addon="script.module.requests"/>
-		<import addon="script.video.F4mProxy" version="4.0.9"/>		
-        <import addon="inputstream.ffmpegdirect"/>        
+		<import addon="script.video.F4mProxy" version="4.0.9"/>
+        <import addon="inputstream.ffmpegdirect"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-    </extension>  
+    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">f4mTester</summary>
         <description></description>
@@ -303,12 +304,12 @@
 <addon id="plugin.video.f4mTester" version="4.0.8" name="f4mTester" provider-name="Joel e Tiago">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.video.F4mProxy" version="4.0.9"/>		
+		<import addon="script.video.F4mProxy" version="4.0.9"/>
         <import addon="inputstream.ffmpegdirect"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-    </extension>  
+    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">f4mTester</summary>
         <description></description>
@@ -319,9 +320,9 @@
     </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" 
-	     name="F4mProxy" 
-	     version="4.0.9" 
+<addon id="script.video.F4mProxy"
+	     name="F4mProxy"
+	     version="4.0.9"
 	     provider-name="Joel e Tiago">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -332,7 +333,7 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>executable</provides>
 	</extension>
-    
+
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Proxy for f4m</summary>
@@ -384,17 +385,17 @@
     </extension>
 </addon>
 
-<addon id="script.limpeza.Matrix" name="[COLORred]Script[/COLOR] [COLORgreen]Limpeza[/COLOR]" provider-name="BOSS" version="1.0"> 
+<addon id="script.limpeza.Matrix" name="[COLORred]Script[/COLOR] [COLORgreen]Limpeza[/COLOR]" provider-name="BOSS" version="1.0">
   <requires>
-    <import addon="xbmc.python" version="3.0.0" /> 
+    <import addon="xbmc.python" version="3.0.0" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>executable</provides>
   </extension>
-  <extension library="service.py" point="xbmc.service" start="startup"> 
+  <extension library="service.py" point="xbmc.service" start="startup">
         <provides>executable</provides>
   </extension>
-  <extension point="xbmc.addon.metadata"> 
+  <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en_GB">Clean up files in Kodi Matrix.</summary>
     <license>GNU GENERAL PUBLIC LICENSE.</license>
@@ -432,7 +433,7 @@
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.requests"/>
-	  <import addon="script.module.streamlink.base" />  
+	  <import addon="script.module.streamlink.base" />
   </requires>
   <extension point="xbmc.python.module" library="lib/"/>
   <extension point="xbmc.addon.metadata">
@@ -823,11 +824,11 @@
         <import addon="script.module.kodi-six" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.resolveurl"/>  
+        <import addon="script.module.resolveurl"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-    </extension>	
+    </extension>
     <extension point="xbmc.addon.metadata">
 		<summary>Resolver player é um addon de reprodução de link</summary>
 		<description>Todos os videos são de sites de terceiros, não hospedamos conteudo</description>
@@ -841,42 +842,42 @@
     </extension>
 </addon>
 
-<addon 	
+<addon
 		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
 		version="3.31"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
-		
+
 		<requires>
         <import addon="xbmc.addon" version="12.0.0"/>
 		</requires>
-		
+
 		<extension point="xbmc.addon.repository" name=".Vikings Repositorio">
-		
-		
+
+
 	<dir>
 			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/addons.xml</info>
 			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master</datadir>
 			<hashes>false</hashes>
     </dir>
-	
+
 	<dir minversion="16.0.0" maxversion="18.9.0">
 			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia/addons.xml</info>
 			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/leia</datadir>
 			<hashes>false</hashes>
     </dir>
-   
+
    <dir minversion="18.9.1">
 			<info compressed="false">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/matrix/addons.xml</info>
 			<checksum>https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/matrix/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/vikingskoditeam/vikingskoditeam.github.io/raw/master/matrix</datadir>
 			<hashes>false</hashes>
     </dir>
-	
+
 	</extension>
-		
-	
+
+
 	<extension point="xbmc.addon.metadata">
 		<summary lang="pt_br"></summary>
         <description lang="pt_br"></description>
@@ -886,20 +887,20 @@
             <icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
         </assets>
-				
+
 	<news></news>
-		
+
 	<summary>Repositório Vikings levando os melhores addons a sua familia e aos quatro cantos do Mundo!!!</summary>
-		
-	<description>	
+
+	<description>
                     [B][COLOR orange]Repositório Vikings, SEM BANIMENTO! SEM SCRIPT MALICIOSO!! PURO, LIMPO E SIMPLES!!![/COLOR][/B]
 					[B][COLOR red]Repositório oficial Vikings Build - Proibido reprodução total ou parcial sem prévia autorização[/COLOR][/B]
 					[B][COLOR white]Addons deste repositório é de uso gratuito!![/COLOR][/B]
 					[B][COLOR firebrick]Proibido a venda dos add-ons contidos neste repositório[/COLOR][/B]
 	</description>
-		
+
 <disclaimer>[B][COLOR orange]Repositório Vikings é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
-		
+
 	</extension>
 </addon>
 
