@@ -99,7 +99,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sexyloucosclub" name="[COLOR red]Sexy [COLOR whitte]Loucos [COLOR yellow]Club[/COLOR]" version="0.1.2" provider-name="Team Kodiloucos">
+<addon id="plugin.video.sexyloucosclub" name="[COLOR red]Sexy [COLOR whitte]Loucos [COLOR yellow]Club[/COLOR]" version="0.1.3" provider-name="Team Kodiloucos">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
 	</requires>
