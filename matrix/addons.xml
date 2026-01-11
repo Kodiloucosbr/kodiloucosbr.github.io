@@ -31,31 +31,24 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.playloucos" version="0.2.3" name="PlayLoucos" provider-name="Team KodiloucosBR">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-		<import addon="script.module.beautifulsoup4"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.inputstreamhelper"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">This addon does not sell or provide or store any illegal content</summary>
-		<summary lang="pt">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
-        <description lang="en">Streaming videos through providers available on the internet</description>
-		<description lang="pt">Streaming de videos atraves de provedores disponiveis na internet</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <disclaimer>O autor deste complemento não hospeda nenhum conteúdo encontrado e não tem afiliação com nenhum dos provedores de conteúdo. Este complemento simplesmente pesquisa conteúdo em sites. Use por sua conta e risco!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
+<addon id="plugin.video.guepardo" name="Guepardo" version="0.1.2" provider-name="Team KodiloucosBR">
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="br">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
+	<language>br</language>
+	<description lang="br">Sua nova forma de assitir TV. 2026</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.playloucosclub" version="0.1.2" name="PlayLoucos Club" provider-name="Team KodiloucosBR">
@@ -143,23 +136,6 @@
     </assets>
 		<language>pt</language>
 	</extension>
-</addon>
-
-<addon id="plugin.video.TvLoucos-Mundi" name="[COLOR blue]TV[COLOR white]Loucos[COLOR red] Mundi[/COLOR]" version="0.1.1" provider-name="Team Magusplay, KodiloucosBR, By Flecha Negra">
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">[COLOR lime]Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal[/COLOR] </summary>
-	<language>en</language>
-	<description lang="pt">[COLOR blue]Addon compátivel com o  kodi 19+[/COLOR]</description>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-  </extension>
 </addon>
 
 <addon id="plugin.audio.kodiloucosFM" version="0.1.2" name="Kodiloucos WebRadio" provider-name="Team KodiloucosBR By MAGUSPLAY">
