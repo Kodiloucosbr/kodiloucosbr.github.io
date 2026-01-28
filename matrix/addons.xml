@@ -160,7 +160,7 @@
     <addon
   id="repository.kodiloucosbr"
   name="[COLOR gold]Repositório KodiloucosBR [COLOR green]OFICIAL[/COLOR]"
-  version="1.0.4"
+  version="1.0.5"
   provider-name="Team KodiloucosBR">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
