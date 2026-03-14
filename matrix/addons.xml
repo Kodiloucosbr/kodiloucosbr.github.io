@@ -110,6 +110,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.tugaplay" name="Tuga Play" version="0.1.1" provider-name="Team Kodiloucos BR, By Magusplay">
+	<requires>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="br">Este addon não vende nem fornece ou armazena qualquer conteúdo ilegal</summary>
+	<language>br</language>
+	<description lang="br">Tuga Play, Addon exclusivo para Apoiadores do Projeto Kodiloucos Club, Portugal.</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
 
 <addon id="plugin.video.sexyloucosclub" name="[COLOR red]Sexy [COLOR whitte]Loucos [COLOR yellow]Club[/COLOR]" version="0.1.3" provider-name="Team Kodiloucos">
 	<requires>
