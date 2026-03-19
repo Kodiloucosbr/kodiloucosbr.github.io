@@ -83,7 +83,7 @@
 </addon>
 
 
-<addon id="plugin.video.flixloucosclub" name="[COLOR yellow]Flix [COLOR lime]Loucos[COLOR yellow] Club[/COLOR]" version="0.1.4" provider-name="Team KodiloucosBR">
+<addon id="plugin.video.flixloucosclub" name="[COLOR yellow]Flix [COLOR lime]Loucos[COLOR yellow] Club[/COLOR]" version="0.1.5" provider-name="Team KodiloucosBR">
 	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
         <import addon="script.module.simplejson" />
